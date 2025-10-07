@@ -14,34 +14,37 @@ Includes authentication, product management, shopping cart, checkout, and paymen
 ## 🚀 Features
 
 ### 🧩 Core Functionality
-- 🔑 User registration, login, and JWT authentication  
-- 🛍️ Product listing with search, filter, and category options  
-- 🧾 Product details with images, descriptions, and reviews  
-- 🛒 Add to cart, update quantities, and remove items  
-- 💳 Checkout flow with address, shipping, and payment  
+
+- 🔑 User registration, login, and JWT authentication
+- 🛍️ Product listing with search, filter, and category options
+- 🧾 Product details with images, descriptions, and reviews
+- 🛒 Add to cart, update quantities, and remove items
+- 💳 Checkout flow with address, shipping, and payment
 - 📦 Order management (for both users & admins)
 
 ### 🔐 Admin Dashboard
-- Manage products (create, update, delete)  
-- Manage orders and customers  
+
+- Manage products (create, update, delete)
+- Manage orders and customers
 - View sales analytics (optional add-on)
 
 ### 💳 Payment Integration
-- Integrated with **Stripe** or **PayPal** for secure payments  
-- Supports both **test** and **live** payment modes  
+
+- Integrated with **Stripe** or **PayPal** for secure payments
+- Supports both **test** and **live** payment modes
 
 ---
 
 ## ⚙️ Tech Stack
 
-| Layer | Technology |
-|-------|-------------|
-| **Frontend** | React, Redux Toolkit, Axios, React Router |
-| **Backend** | Django, Django REST Framework |
-| **Database** | PostgreSQL / SQLite |
-| **Authentication** | JSON Web Tokens (JWT) |
-| **Payments** | Stripe / PayPal |
-| **Deployment** | Docker, Nginx, Gunicorn |
+| Layer              | Technology                                |
+| ------------------ | ----------------------------------------- |
+| **Frontend**       | React, Redux Toolkit, Axios, React Router |
+| **Backend**        | Django, Django REST Framework             |
+| **Database**       | PostgreSQL / SQLite                       |
+| **Authentication** | JSON Web Tokens (JWT)                     |
+| **Payments**       | Stripe / PayPal                           |
+| **Deployment**     | Docker, Nginx, Gunicorn                   |
 
 ---
 
@@ -67,3 +70,6 @@ ecommerce-app/
 ├── docker-compose.yml
 ├── README.md
 └── .env.example
+
+
+```
