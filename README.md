@@ -73,3 +73,115 @@ ecommerce-app/
 
 
 ```
+
+⚙️ Installation & Setup
+🔧 Prerequisites
+
+Ensure you have installed:
+
+Python 3.10+
+
+Node.js 18+
+
+PostgreSQL (or use SQLite)
+
+Git
+
+(Optional) Docker
+
+🧱 1. Clone the Repository
+git clone https://github.com/yourusername/ecommerce-app.git
+cd ecommerce-app
+
+🐍 2. Backend Setup (Django)
+cd backend
+python3 -m venv venv
+source venv/bin/activate # On Windows use venv\Scripts\activate
+pip install -r requirements.txt
+cp .env.example .env # Update your environment variables
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
+
+Backend will start at 👉 http://127.0.0.1:8000/
+
+⚛️ 3. Frontend Setup (React)
+cd ../frontend
+npm install
+npm run dev
+
+Frontend will start at 👉 http://localhost:5173/
+(or similar port)
+
+🧩 4. Connect Frontend to Backend
+
+In your React .env file:
+
+VITE_API_BASE_URL=http://127.0.0.1:8000/api
+
+🧠 Environment Variables
+
+Create a .env file inside backend/:
+
+DEBUG=True
+SECRET_KEY=your-secret-key
+DATABASE_URL=postgres://user:password@localhost:5432/ecommerce
+STRIPE_SECRET_KEY=your-stripe-secret-key
+STRIPE_PUBLIC_KEY=your-stripe-public-key
+ALLOWED_HOSTS=localhost,127.0.0.1
+
+🧰 Useful Commands
+Command Description
+python manage.py runserver Start Django development server
+npm run dev Start React development server
+python manage.py makemigrations Create new migrations
+python manage.py migrate Apply migrations
+python manage.py createsuperuser Create admin user
+docker-compose up Run full app using Docker
+🧪 Testing
+🧬 Backend Tests
+pytest
+
+🧩 Frontend Tests
+npm run test
+
+🚢 Deployment
+
+You can deploy this project using Docker, AWS EC2, Render, or Vercel.
+
+Example (Docker Compose):
+
+docker-compose up --build
+
+📷 Screenshots (optional)
+🏠 Home Page 📄 Product Page 💰 Checkout
+
+💡 Future Improvements
+
+✅ Add product recommendations (ML-based)
+
+✅ Implement wishlist & product ratings
+
+✅ Add email notifications
+
+✅ Support multiple vendors
+
+🤝 Contributing
+
+Fork the repository
+
+Create a branch: git checkout -b feature-branch
+
+Commit your changes: git commit -m "Add feature"
+
+Push to branch: git push origin feature-branch
+
+Open a Pull Request
+
+🧑‍💻 Author
+
+Your Name
+📧 your.email@example.com
+
+🌐 LinkedIn
+• GitHub
