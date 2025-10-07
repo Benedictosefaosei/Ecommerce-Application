@@ -1,0 +1,79 @@
+<h1 align="center">Ecommerce Platform</h1>
+
+<p align="center">
+  A robust, scalable ecommerce application built with Django REST Framework backend and React frontend
+</p>
+
+<div align="center">
+
+![Django](https://img.shields.io/badge/Django-4.2+-green.svg)
+![React](https://img.shields.io/badge/React-18-blue.svg)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-12+-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+</div>
+
+<div align="center">
+  
+[![Features](https://img.shields.io/badge/Features-🚀-orange)](#-features)
+[![Installation](https://img.shields.io/badge/Installation-⚙️-blue)](#️-installation)
+[![Demo](https://img.shields.io/badge/Demo-🎮-brightgreen)](#-demo)
+[![Deployment](https://img.shields.io/badge/Deployment-🚀-success)](#-deployment)
+
+</div>
+
+## 🚀 Features
+
+### Core Ecommerce
+- **Product Catalog** with categories, filtering, and search
+- **Shopping Cart** with persistent storage  
+- **User Authentication** with JWT tokens
+- **Order Management** with status tracking
+- **Payment Integration** with Stripe
+- **Inventory Management** with stock tracking
+- **Review & Rating System**
+
+### Advanced Features
+- **Responsive Design** for all devices
+- **Image Optimization** with CDN support
+- **SEO Optimization** with meta tags
+- **Performance Monitoring** with analytics
+- **Admin Dashboard** for store management
+- **Email Notifications** for orders and updates
+- **Multi-currency Support**
+- **Wishlist Functionality**
+
+## 🛠 Tech Stack
+
+### Backend
+<p>
+  <img src="https://img.shields.io/badge/Django-4.2+-green?logo=django" alt="Django">
+  <img src="https://img.shields.io/badge/Django_REST_Framework-3.14-red?logo=django" alt="DRF">
+  <img src="https://img.shields.io/badge/PostgreSQL-12+-blue?logo=postgresql" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/Redis-6+-red?logo=redis" alt="Redis">
+  <img src="https://img.shields.io/badge/Celery-5.3+-green?logo=celery" alt="Celery">
+</p>
+
+### Frontend
+<p>
+  <img src="https://img.shields.io/badge/React-18-blue?logo=react" alt="React">
+  <img src="https://img.shields.io/badge/Redux_Toolkit-1.9-purple?logo=redux" alt="Redux Toolkit">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-3.3-cyan?logo=tailwindcss" alt="Tailwind CSS">
+  <img src="https://img.shields.io/badge/React_Router-6.8-coral?logo=reactrouter" alt="React Router">
+</p>
+
+## 📋 Prerequisites
+
+- Python 3.9+
+- Node.js 16+
+- PostgreSQL 12+
+- Redis 6+
+
+## ⚙️ Installation
+
+### Backend Setup
+
+1. **Clone the repository**
+```bash
+git clone <repository-url>
+cd ecommerce-platform/backend
