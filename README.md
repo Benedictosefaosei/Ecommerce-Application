@@ -180,8 +180,8 @@ Open a Pull Request
 
 🧑‍💻 Author
 
-Your Name
-📧 your.email@example.com
+Benedict Osei Sefa
+📧 benedictosefaosei@gmail.com
 
 🌐 LinkedIn
 • GitHub
