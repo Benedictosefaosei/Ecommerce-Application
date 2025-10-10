@@ -90,7 +90,7 @@ Git
 (Optional) Docker
 
 🧱 1. Clone the Repository
-git clone https://github.com/yourusername/ecommerce-app.git
+git clone https://github.com/Benedictosefaosei/ecommerce-app.git
 cd ecommerce-app
 
 🐍 2. Backend Setup (Django)
